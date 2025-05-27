@@ -1,0 +1,41 @@
+# Node modules
+/frontend-angular/node_modules/
+
+# Build output
+/frontend-angular/dist/
+/frontend-angular/tmp/
+/frontend-angular/out-tsc/
+
+# Environment files
+/frontend-angular/src/environments/*.ts
+
+# IDE files
+/frontend-angular/.vscode/
+/frontend-angular/.idea/
+
+# Logs
+/frontend-angular/npm-debug.log*
+/frontend-angular/yarn-debug.log*
+/frontend-angular/yarn-error.log*
+
+# OS files
+/frontend-angular/.DS_Store
+/frontend-angular/Thumbs.db
+
+# Angular specific
+/frontend-angular/.angular/cache/
+/frontend-angular/.angular/local/
+
+# Coverage reports
+/frontend-angular/coverage/
+
+# NestJS node modules
+/backend-nest/node_modules/
+
+# Build output
+/backend-nest/dist/
+/backend-nest/.tsbuildinfo
+
+# Environment files
+/backend-nest/.env
+/backend-nest/.env.*
