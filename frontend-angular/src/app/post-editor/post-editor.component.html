@@ -1,0 +1,10 @@
+<quill-editor
+  [(ngModel)]="postContent"
+  [modules]="editorModules"
+  [style]="{ height: '300px' }"
+  placeholder="Write your blog post here...">
+</quill-editor>
+
+<button (click)="submitPost()" style="margin-top: 16px;">
+  Save Post
+</button>
